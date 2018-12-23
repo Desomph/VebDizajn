@@ -151,8 +151,7 @@ a:active {
 
 .news-box {
     color: antiquewhite;
-    width: 40%;
-    height: 550px;
+    width: 30%;
     display: inline-block;
     overflow: hidden;
     text-align: center;
@@ -168,10 +167,14 @@ a:active {
     border: 2px solid #8E2823;
 }
 
+.news-box:hover {
+    background-color: gray;
+}
+
 .news-image {
     border-radius: 10px;
     width: 100%;
-    height: 200px;
+    height: auto;
     opacity: 0.75;
 }
 
@@ -205,6 +208,10 @@ a:active {
 
 .medium-box-hr {
     border: 2px solid #8E2823;
+}
+
+.medium-box:hover {
+    background-color: gray;
 }
 
 .footer {
