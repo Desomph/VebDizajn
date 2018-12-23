@@ -10,8 +10,9 @@ figure {
 }
 
 body {
-    font-family: Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
     margin: 0;
+    background-image: linear-gradient(to right, #A46354, #2C5387);
     padding: 0;
 }
 
@@ -37,7 +38,7 @@ a:active {
 
 .nav-centered {
     width: 100%;
-    background-color: gray;
+    background-color: #06232F;
     font-size: 1.5em;
     text-align: center;
     vertical-align: middle;
@@ -52,7 +53,7 @@ a:active {
 }
 
 .nav-centered-item:hover {
-    background-color: mediumseagreen;
+    background-color: #8F281F;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -65,7 +66,7 @@ a:active {
 .nav-dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #06232F;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -74,13 +75,13 @@ a:active {
 /* Links inside the dropdown */
 .nav-dropdown-content a {
     color: antiquewhite;
-    background-color: gray;
+    background-color: 06232F;
     text-decoration: none;
 }
 
 /* Change color of dropdown links on hover */
 .nav-dropdown-content a:hover {
-    background-color: mediumseagreen;
+    background-color: #8F281F;
 }
 
 /* Show the dropdown menu on hover */
@@ -88,10 +89,8 @@ a:active {
     display: block;
 }
 
-/**/
-
 .header-image {
-    background-image: url("../../media/images/UAHeader.jpg");
+    background-image: url("../../media/images/GameShopHeader.jpg");
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
@@ -106,6 +105,7 @@ a:active {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    animation: pulse 3s infinite linear;
 }
 
 .game-box-container {
@@ -115,6 +115,7 @@ a:active {
 }
 
 .game-box {
+    color: antiquewhite;
     width: 20%;
     min-width: 300px;
     height: 150px;
@@ -132,13 +133,37 @@ a:active {
     background-color: gray;
 }
 
-.game-box-text {
+.footer {
+    line-height: 40px;
+    background-color: #06232F;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-text {
     color: antiquewhite;
 }
 
-.footer {
-    line-height: 40px;
-    background-color: gray;
-    margin: 0;
-    padding: 0;
+#footer-link {
+    color: #8F281F;
+}
+
+/* Animations */
+
+@keyframes pulse {
+    0% {
+        color: white;
+    }
+
+    25% {
+        color: #245181;
+    }
+
+    75% {
+        color: #AB5414;
+    }
+
+    100% {
+        color: white;
+    }
 }
