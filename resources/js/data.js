@@ -34,70 +34,70 @@ const news = [
 const games = [
     {
         "id": 1,
-        "url": "",
+        "url": "https://worldofwarcraft.com/en-us/",
         "image": "../media/images/games/igra1.png",
         "name": "World of Warcraft",
         "description": "World of Warcraft (WoW) is a massively multiplayer online role-playing game (MMORPG) released in 2004 by Blizzard Entertainment. It is the fourth released game set in the Warcraft fantasy universe."
     },
     {
         "id": 2,
-        "url": "",
+        "url": "https://heroesofthestorm.com/en-us/",
         "image": "../media/images/games/igra7.jpg",
         "name": "Heroes of the Storm",
         "description": "Heroes of the Storm is a multiplayer online battle arena video game developed and published by Blizzard Entertainment for Microsoft Windows and macOS, which released on June 2, 2015."
     },
     {
         "id": 3,
-        "url": "",
+        "url": "https://us.diablo3.com/en/",
         "image": "../media/images/games/igra5.jpg",
         "name": "Diablo III",
         "description": "Diablo III is a dungeon crawler action role-playing video game. It is the third installment in the Diablo franchise and was released on May 15, 2012 for Microsoft Windows and macOS."
     },
     {
         "id": 4,
-        "url": "",
+        "url": "https://us.diablo3.com/en/",
         "image": "../media/images/games/igra4.jpeg",
         "name": "Diablo III - Reaper of Souls",
         "description": "Diablo III: Reaper of Souls is the first expansion pack for the action role-playing video game Diablo III. It was revealed at Gamescom 2013."
     },
     {
         "id": 5,
-        "url": "",
+        "url": "https://starcraft2.com/en-us/",
         "image": "../media/images/games/igra3.jpg",
         "name": "Starcraft II",
         "description": "StarCraft II is a military science fiction real-time strategy video game developed and published by Blizzard Entertainment. It was released worldwide in July 2010 for Microsoft Windows and Mac OS X."
     },
     {
         "id": 6,
-        "url": "",
+        "url": "https://playoverwatch.com/en-us/",
         "image": "../media/images/games/igra2.jpg",
         "name": "Overwatch",
         "description": "Overwatch is a team-based multiplayer first-person shooter video game developed and published by Blizzard Entertainment, which released on May 24, 2016 for PlayStation 4, Xbox One, and Windows. Described as a \"hero shooter\"."
     },
     {
         "id": 7,
-        "url": "",
+        "url": "https://www.epicgames.com/fortnite/en-US/home",
         "image": "../media/images/games/igra10.jpg",
         "name": "Fortnite",
         "description": "Fortnite is an online video game first released in 2017 and developed by Epic Games. It is available as separate software packages having different game modes that otherwise share the same general gameplay and game engine."
     },
     {
         "id": 8,
-        "url": "",
+        "url": "https://playhearthstone.com/en-us/",
         "image": "../media/images/games/igra8.jpg",
         "name": "Hearthstone",
         "description": "Hearthstone, originally Hearthstone: Heroes of Warcraft, is a free-to-play online collectible card video game."
     },
     {
         "id": 9,
-        "url": "",
+        "url": "https://starcraft.com/en-us/",
         "image": "../media/images/games/igra6.jpg",
         "name": "Starcraft - Remastered",
         "description": "StarCraft: Remastered is a remastered edition of the 1998 real-time strategy video game StarCraft and its expansion Brood War, which was released on August 14, 2017."
     },
     {
         "id": 10,
-        "url": "",
+        "url": "http://blog.dota2.com/?l=english",
         "image": "../media/images/games/igra9.jpg",
         "name": "Dota 2",
         "description": "Dota 2 is a free-to-play multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation. The game is the stand-alone sequel to Defense of the Ancients (DotA)."
