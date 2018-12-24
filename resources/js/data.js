@@ -162,7 +162,7 @@ const platforms = [
         "url": "https://steamcommunity.com/",
         "image": "https://logos-download.com/wp-content/uploads/2016/05/Steam_logo_logotype.png",
         "name": "Steam",
-        "description": ""
+        "description": "Steam is a digital distribution platform developed by Valve Corporation for purchasing and playing video games. Steam offers digital rights management (DRM), matchmaking servers, video streaming, and social networking services. Steam provides the user with installation and automatic updating of games, and community features such as friends lists and groups, cloud saving, and in-game voice and chat functionality. The software provides a freely available application programming interface (API) called Steamworks, which developers can use to integrate many of Steam's functions into their products, including networking, matchmaking, in-game achievements, microtransactions, and support for user-created content through Steam Workshop. Though initially developed for use on Microsoft Windows operating systems, versions for macOS and Linux were later released. Mobile apps with connected functionality with the main software were later released for iOS, Android, and Windows Phone in the 2010s. The platform also offers a small selection of non-video game content, such as design software, anime, and films. "
     },
     {
         "id": 4,
