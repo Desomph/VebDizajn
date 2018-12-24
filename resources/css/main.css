@@ -139,7 +139,7 @@ a:active {
 
 .game-box-image {
     width: 100%;
-    height: 200px;
+    height: 180px;
     border-radius: 10px;
 }
 
@@ -186,10 +186,11 @@ a:active {
 
 .medium-box {
     color: antiquewhite;
-    width: 30%;
-    height: 300px;
+    width: 23%;
+    min-width: 400px;
+    height: 500px;
     display: inline-block;
-    overflow: hidden;
+    overflow: auto;
     text-align: center;
     word-wrap: break-word;
     padding: 5px;
@@ -211,6 +212,42 @@ a:active {
 }
 
 .medium-box:hover {
+    background-color: gray;
+}
+
+.platform-box-container {
+    align-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.platform-box {
+    color: antiquewhite;
+    width: 30%;
+    min-width: 380px;
+    height: 850px;
+    display: inline-block;
+    overflow: auto;
+    text-align: center;
+    word-wrap: break-word;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #2B1E1E;
+    opacity: 0.75;
+    margin: 5px;
+}
+
+.platform-image {
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+}
+
+.platform-box-hr {
+    border: 2px solid #8E2823;
+}
+
+.platform-box:hover {
     background-color: gray;
 }
 

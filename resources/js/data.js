@@ -107,88 +107,75 @@ const games = [
 const genres = [
     {
         "id": 1,
-        "name": "",
-        "description": ""
+        "name": "FPS",
+        "description": "First-person shooter (FPS) is a video game genre centered around gun and other weapon-based combat in a first-person perspective; that is, the player experiences the action through the eyes of the protagonist. The genre shares common traits with other shooter games, which in turn makes it fall under the heading action game. Since the genre's inception, advanced 3D and pseudo-3D graphics have challenged hardware development, and multiplayer gaming has been integral. "
     },
     {
         "id": 2,
-        "name": "",
-        "description": ""
+        "name": "RTS",
+        "description": "In an RTS, the participants position and maneuver units and structures under their control to secure areas of the map and/or destroy their opponents' assets. In a typical RTS, it is possible to create additional units and structures during the course of a game. This is generally limited by a requirement to expend accumulated resources. These resources are in turn garnered by controlling special points on the map and/or possessing certain types of units and structures devoted to this purpose. More specifically, the typical game of the RTS genre features resource gathering, base building, in-game technological development and indirect control of units. The term \"real-time strategy\" was coined by Brett Sperry to market Dune II in the early 1990s."
     },
     {
         "id": 3,
-        "name": "",
-        "description": ""
+        "name": "MOBA",
+        "description": "Multiplayer online battle arena (MOBA), also known as action real-time strategy (ARTS), is a subgenre of strategy video games that originated as a subgenre of real-time strategy, in which a player controls a single character in a team who compete versus another team of players. The objective is to destroy the opposing team's main structure with the assistance of periodically-spawned computer-controlled units that march forward along set paths. Player characters typically have various abilities and advantages that improve over the course of a game and that contribute to a team's overall strategy. MOBA games are a fusion of action games, role-playing games and real-time strategy games, in which players usually do not construct either buildings or units. "
     },
     {
         "id": 4,
-        "name": "",
-        "description": ""
+        "name": "Platformer",
+        "description": "A platform game, or platformer, is a video game genre and subgenre of action games. In a platformer the player controls a character or avatar to jump between suspended platforms and avoid obstacles. Environments often feature uneven terrain requiring jumping and climbing in order to traverse them. The player often has some control over the height and distance of jumps to avoid letting their character fall to their death or miss necessary jumps. The most common unifying element of games of this genre is the jump button, but now there are other alternatives like swiping a touchscreen. Other acrobatic maneuvers may factor into the gameplay as well, such as swinging from objects such as vines or grappling hooks, as in Ristar or Bionic Commando, or bouncing from springboards or trampolines, as in Alpha Waves. These mechanics, even in the context of other genres, are commonly called platforming, a verbification of platform. Games where jumping is automated completely, such as 3D games in The Legend of Zelda series, fall outside of the genre. "
+    },
+    {
+        "id": 5,
+        "name": "RPG",
+        "description": "A role-playing video game (commonly referred to as simply a role-playing game or an RPG as well as a computer role-playing game or a CRPG) is a video game genre where the player controls the actions of a character (and/or several party members) immersed in some well-defined world. Many role-playing video games have origins in tabletop role-playing games (including Dungeons & Dragons) and use much of the same terminology, settings and game mechanics. Other major similarities with pen-and-paper games include developed story-telling and narrative elements, player character development, complexity, as well as replayability and immersion. The electronic medium removes the necessity for a gamemaster and increases combat resolution speed. RPGs have evolved from simple text-based console-window games into visually rich 3D experiences."
+    },
+    {
+        "id": 6,
+        "name": "Fighting",
+        "description": "A fighting game is a video game genre based around interpersonal combat between a limited amount of characters in which they fight until they defeat their opponents or the timer expires. The fight matches typically consist of several rounds and take place in an arena, while each character has differing abilities but each is relatively viable to choose. Players must master techniques such as blocking, counter-attacking, and chaining attacks together into \"combos\". Starting in the early 1990s, most fighting games allowed the player to execute special attacks by performing specific input combinations. The fighting game genre is related to but distinct from beat 'em ups, which involve large numbers of enemies against the human player."
+    },
+    {
+        "id": 6,
+        "name": "Simulation",
+        "description": "A simulation game attempts to copy various activities from real life in the form of a game for various purposes such as training, analysis, or prediction. Usually there are no strictly defined goals in the game, with the player instead allowed to control a character freely. Well-known examples are war games, business games, and role play simulation."
     },
 ];
 
 const platforms = [
     {
         "id": 1,
-        "image": "",
-        "name": "",
-        "description": ""
+        "url": "https://www.playstation.com/en-us/explore/ps4/",
+        "image": "https://etgeekera.files.wordpress.com/2013/11/playstation-4-header.jpg",
+        "name": "Playstation 4",
+        "description": "The PlayStation 4 (PS4) is an eighth-generation home video game console developed by Sony Interactive Entertainment. Announced as the successor to the PlayStation 3 during a press conference on February 20, 2013, it was launched on November 15 in North America, November 29 in Europe, South America and Australia; and February 22, 2014, in Japan. It competes with Microsoft's Xbox One and Nintendo's Wii U and Switch. Moving away from the more complex Cell microarchitecture of its predecessor, the console features an AMD Accelerated Processing Unit (APU) built upon the x86-64 architecture, which can theoretically peak at 1.84 teraflops; AMD stated that it was the \"most powerful\" APU it had developed to date. The PlayStation 4 places an increased emphasis on social interaction and integration with other devices and services, including the ability to play games off-console on PlayStation Vita and other supported devices (\"Remote Play\"), the ability to stream gameplay online or to friends, with them controlling gameplay remotely (\"Share Play\"). The console's controller was also redesigned and improved over the PlayStation 3, with improved buttons and analog sticks, and an integrated touchpad among other changes. The console also supports HDR10 High-dynamic-range video and playback of 4K resolution multimedia. "
     },
     {
         "id": 2,
-        "image": "",
-        "name": "",
-        "description": ""
+        "url": "https://www.xbox.com/en-US/",
+        "image": "https://cdn.wccftech.com/wp-content/uploads/2015/06/xbox-elite-header.jpg",
+        "name": "Xbox",
+        "description": "The Xbox is a home video game console and the first installment in the Xbox series of consoles manufactured by Microsoft. It was released on November 15, 2001 in North America, followed by Australia, Europe and Japan in 2002. It was Microsoft's first foray into the gaming console market. It is a sixth generation console, and competed with Sony's PlayStation 2 and Nintendo's GameCube. It was also the first console produced by an American company since the Atari Jaguar ceased production in 1996. Announced in 2000, the Xbox was graphically powerful compared to its rivals, featured an 733 MHz Intel Pentium III processor, a processor that could be found on a standard PC. It was also noted for its PC-like size and weight, and was the first console to feature a built-in hard disk. In November 2002, Microsoft launched Xbox Live, a fee-based online gaming service that enabled subscribers to download new content and connect with other players through a broadband connection. Unlike other online services from Sega and Sony, Xbox Live had support in the original console design through an integrated Ethernet port. The service gave Microsoft an early foothold in online gaming and would help the Xbox become a relevant competitor to other sixth-generation consoles. The popularity of blockbuster titles such as Halo 2 contributed to the popularity of online console gaming, and in particular first-person shooters."
     },
     {
         "id": 3,
-        "image": "",
-        "name": "",
+        "url": "https://steamcommunity.com/",
+        "image": "https://logos-download.com/wp-content/uploads/2016/05/Steam_logo_logotype.png",
+        "name": "Steam",
         "description": ""
     },
     {
         "id": 4,
-        "image": "",
-        "name": "",
+        "url": "https://www.blizzard.com/en-us/",
+        "image": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/16/16F22IIKJZWV1502739554193.jpg",
+        "name": "Battle.net",
         "description": ""
     },
     {
         "id": 5,
-        "image": "",
-        "name": "",
+        "url": "https://www.epicgames.com/store/en-US/",
+        "image": "https://cdn2.unrealengine.com/UnrealEngine%2FNews%2FAnnouncing+the+Epic+Games+Store%2FEpicGamesStore-1400x788-115627d82416826e240d42891ede4afe7975ba19.jpg",
+        "name": "Epic Store",
         "description": ""
     }
-];
-
-const software = [
-    {
-        "id": 1,
-        "image": "",
-        "name": "",
-        "description": ""
-    },
-    {
-        "id": 2,
-        "image": "",
-        "name": "",
-        "description": ""
-    },
-    {
-        "id": 3,
-        "image": "",
-        "name": "",
-        "description": ""
-    },
-    {
-        "id": 4,
-        "image": "",
-        "name": "",
-        "description": ""
-    },
-    {
-        "id": 5,
-        "image": "",
-        "name": "",
-        "description": ""
-    },
 ];
