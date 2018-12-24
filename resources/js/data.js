@@ -35,7 +35,7 @@ const games = [
     {
         "id": 1,
         "url": "https://worldofwarcraft.com/en-us/",
-        "image": "../media/images/games/igra1.png",
+        "image": "../media/images/games/igra1.jpg",
         "name": "World of Warcraft",
         "description": "World of Warcraft (WoW) is a massively multiplayer online role-playing game (MMORPG) released in 2004 by Blizzard Entertainment. It is the fourth released game set in the Warcraft fantasy universe."
     },
