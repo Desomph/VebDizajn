@@ -169,13 +169,13 @@ const platforms = [
         "url": "https://www.blizzard.com/en-us/",
         "image": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/16/16F22IIKJZWV1502739554193.jpg",
         "name": "Battle.net",
-        "description": ""
+        "description": "Blizzard Battle.net is an Internet-based online gaming, social networking, digital distribution, and digital rights management platform developed by Blizzard Entertainment. Battle.net was launched on December 31, 1996, with the release of Blizzard's action-role-playing video game Diablo. Battle.net was the first online gaming service incorporated directly into the games that make use of it, in contrast to the external interfaces used by the other online services at the time. This feature, along with ease of account creations and the absence of member fees, caused Battle.net to become popular among gamers and became a major selling point for Diablo and subsequent Blizzard games. Since the successful launch of Battle.net, many companies have created online game services mimicking Blizzard's service package and the user interface. "
     },
     {
         "id": 5,
         "url": "https://www.epicgames.com/store/en-US/",
         "image": "https://cdn2.unrealengine.com/UnrealEngine%2FNews%2FAnnouncing+the+Epic+Games+Store%2FEpicGamesStore-1400x788-115627d82416826e240d42891ede4afe7975ba19.jpg",
         "name": "Epic Store",
-        "description": ""
+        "description": "The Epic Games Store is a digital video game storefront operated by Epic Games. It launched in December 2018. The store is available on the web and through Epic Games' launcher application. It does not have features such as achievements or virtual reality headset support. Epic's own games will be exclusively available through its store and the company plans to fund developers to release exclusively through their store. Epic plans to offer one free game every two weeks through 2019."
     }
 ];
