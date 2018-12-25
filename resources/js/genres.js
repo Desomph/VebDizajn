@@ -4,15 +4,28 @@
 
         if (genres != null && genres.length > 0) {
             genres.forEach(genre => {
-                $("#medium-container").append(`
-                <div class="medium-box">
-                    <h1>${genre.name}</h1>
-                    <hr class="medium-box-hr" />
-                    <h3>
-                        <p><i>${genre.description}</i></p>
-                    </h3>
-                </div>`);
+                $("#accordion-container").append(`
+                    <button class="accordion">${genre.name}</button>
+                    <div class="accordion-panel">
+                        <p>${genre.description}</p>
+                    </div>
+                `);
             });
-        }
+
+            var accordionButtons = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < accordionButtons.length; i++) {
+                accordionButtons[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.maxHeight) {
+                        panel.style.maxHeight = null;
+                    } else {
+                        panel.style.maxHeight = panel.scrollHeight + "px";
+                    }
+                });
+            };
+        };
     });
 })();

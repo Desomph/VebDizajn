@@ -178,43 +178,6 @@ a:active {
     opacity: 0.75;
 }
 
-.medium-box-container {
-    align-content: center;
-    text-align: center;
-    width: 100%;
-}
-
-.medium-box {
-    color: antiquewhite;
-    width: 23%;
-    min-width: 400px;
-    height: 500px;
-    display: inline-block;
-    overflow: auto;
-    text-align: center;
-    word-wrap: break-word;
-    padding: 5px;
-    border-radius: 10px;
-    background-color: #2B1E1E;
-    opacity: 0.75;
-    margin: 5px;
-}
-
-.medium-image {
-    border-radius: 10px;
-    width: 100%;
-    height: 100px;
-    opacity: 0.75;
-}
-
-.medium-box-hr {
-    border: 2px solid #8E2823;
-}
-
-.medium-box:hover {
-    background-color: gray;
-}
-
 .platform-box-container {
     align-content: center;
     text-align: center;
@@ -249,6 +212,106 @@ a:active {
 
 .platform-box:hover {
     background-color: gray;
+}
+
+#accordion-container {
+    margin: 5px 5px 5px 5px;
+}
+
+.accordion {
+    background-color: #4C5E72;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    font-size: 15px;
+    opacity: 0.6;
+}
+
+.active,
+.accordion:hover {
+    background-color: #6d849e;
+}
+
+.accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: orange;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+}
+
+.accordion-panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+#contact-form-container {
+    margin: 5px auto;
+    width: 30%;
+}
+
+#contact-form {
+    opacity: .85;
+}
+
+.form-text-input {
+    font-family: Consolas;
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.form-text-input:hover {
+    border: 2px solid #8E2823;
+}
+
+.form-dropdown {
+    font-family: Consolas;
+    height: 30px;
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.form-textarea-input {
+    width: 100%;
+    min-height: 100px;
+    font-size: 16px;
+    font-family: Consolas;
+    margin: 5px;
+    padding: 5px;
+}
+
+.form-textarea-input:hover {
+    border: 2px solid #8E2823;
+}
+
+.form-button {
+    margin: 5px 5px 5px 10px;
+    font-size: 16px;
+    font-family: Consolas;
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.form-button:hover {
+    border: 2px solid #8E2823;
 }
 
 .footer {
