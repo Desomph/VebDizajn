@@ -1,7 +1,5 @@
 (() => {
     window.addEventListener("load", () => {
-        console.log("We're ready bois!");
-
         if (games != null && games.length > 0) {
             games.forEach(game => {
                 $("#game-container").append(`

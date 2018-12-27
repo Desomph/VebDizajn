@@ -1,7 +1,5 @@
 (() => {
     window.addEventListener("load", () => {
-        console.log("We're ready bois!");
-
         if (news != null && news.length > 0) {
             news.forEach(newz => {
                 $("#news-container").append(`            

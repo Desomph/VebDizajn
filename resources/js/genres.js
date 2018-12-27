@@ -1,7 +1,5 @@
 (() => {
     window.addEventListener("load", () => {
-        console.log("We're ready bois!");
-
         if (genres != null && genres.length > 0) {
             genres.forEach(genre => {
                 $("#accordion-container").append(`

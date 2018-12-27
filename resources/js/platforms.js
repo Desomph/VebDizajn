@@ -1,7 +1,5 @@
 (() => {
     window.addEventListener("load", () => {
-        console.log("We're ready bois!");
-
         if (platforms != null && platforms.length > 0) {
             platforms.forEach(platform => {
                 $("#platform-container").append(`
