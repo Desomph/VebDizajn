@@ -1,4 +1,3 @@
-
 function validateContactForm() {
     var requestType = document.forms["contact-form"]["requesttype"];
     var yourEmail = document.forms["contact-form"]["youremail"];
