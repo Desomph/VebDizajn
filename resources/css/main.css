@@ -245,6 +245,9 @@ a:active {
     margin-left: 5px;
 }
 
+/*
+ * Za accordion minus na kraju
+ */
 .active:after {
     content: "\2796";
 }
